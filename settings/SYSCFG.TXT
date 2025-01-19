@@ -1,7 +1,7 @@
-Date format=[0];set date format,0:YYYY/MM/DD, 1:DD/MM/YYYY, 2:MM/DD/YYYY
-Date time=[2016/10/01-17:00:00];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss,or mm/dd/yyyy-hh:mm:ss
+Date format=[1];set date format,0:YYYY/MM/DD, 1:1/19/2025, 2:MM/DD/YYYY
+Date time=[2025/19/01-12:09];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss,or mm/dd/yyyy-hh:mm:ss
 
-Default Mode=[0];set power-on default mode,0:Video Mode 1,1:Video Mode 2,2:Photo Mode
+Default Mode=[2];set power-on default mode,0:Video Mode 1,1:Video Mode 2,2:Photo Mode
 
 VIDEO MODE 1
 Movie Resolution=[0];0:1080p(Wide AOV),1:1080p(Narrow AOV),2:720p(Wide AOV),3:720p(Narrow AOV),4:WVGA (Wide AOV), 5:WVGA (Narrow AOV),
@@ -33,7 +33,7 @@ Movie file format=[0];set movie file format,0:MOV,1:AVI,2:MP4,3:WAV (Sound Only)
 
 PHOTO MODE
 Photo Mode Capture Size=[0];set photo size,0:2304x1536,1:1920x1080,2:1280x720,3:848x480
-Photo Set Time Lapse Shooting=[0],0:off,1:0.25s,2:0.5s,3:1s,4:2s,5:5s,6:10s,7:30s,8:Custom
+Photo Set Time Lapse Shooting=[2],0:off,1:0.25s,2:0.5s,3:1s,4:2s,5:5s,6:10s,7:30s,8:Custom
 Photo Time Lapse Shooting Customized Value=[1]    ; in minutes, values from 1 to 43,200 (30 days)
 When time lapse shooting set to 5Min or above, Mobius will work in power saving mode (auto turns on/off).
 Photo Flip=[0];set Photo rotate,0:off,1:flip on
